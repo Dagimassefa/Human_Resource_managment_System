@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HumanResourceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="assign">
+    <Key>
+      <PropertyRef Name="Emp_ID" />
+      <PropertyRef Name="Dep_ID" />
+    </Key>
+    <Property Name="Emp_ID" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Dep_ID" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Dep_name" Type="varchar" MaxLength="100" />
+    <Property Name="position" Type="varchar" MaxLength="100" />
+    <Property Name="salary" Type="float" />
+    <Property Name="password_" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="HumanResourceModelStoreContainer">
+    <EntitySet Name="assign" EntityType="Self.assign" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
