@@ -1,11 +1,11 @@
 # Human_Resource_managment_System 
 This project is a desktop application it can be used in any organization it includes the functionalities that are listed below:<br />
-#Roles of an employee. 
+# Roles of an employee. 
 1. Role based login for both an employee and admin. <br />
 2. An employee can change their password after verifying their identity.<br />
 3. An employee can generate a report based on their position.<br />
 4. After they are done with their job they will logout from the system.<br />
-#Roles of the admin.
+# Roles of the admin.
 1. The Admin can login using their ID and Password and then they can register an employee.<br />
 2. The admin can assign an employee to a specefic department after they are being registered.<br />
 3. The admin can update the postion of an employee if they earn it.<br />
